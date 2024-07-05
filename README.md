@@ -4,6 +4,7 @@ I use Proteus for simulation and Codevisionavr for compiling the code
 In this project, I use atmega32 to simulate a smart home
 
 
-![image](https://github.com/alirezaazizkhani/Microprocessor/assets/93712152/f99c19ba-1248-43ce-b56e-debbef55b9b8)
-![image](https://github.com/alirezaazizkhani/Microprocessor/assets/93712152/ca97d0a4-733c-490f-b254-a432b247b5c7)
-![image](https://github.com/alirezaazizkhani/Microprocessor/assets/93712152/05aa91b7-ed14-4380-ac57-81049edcc4aa)
+![image](https://github.com/alirezaazizkhani/Microprocessor/assets/93712152/1f1a2b74-83d7-48a2-9da2-b42bae4a0389)
+![image](https://github.com/alirezaazizkhani/Microprocessor/assets/93712152/1be11595-6116-46bf-91c6-a9a1b912824f)
+![image](https://github.com/alirezaazizkhani/Microprocessor/assets/93712152/c83d69ff-df24-47a2-9e9e-6883f38cd73d)
+
