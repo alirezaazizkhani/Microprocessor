@@ -1,0 +1,54 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+correct_password                                                                  0x03FA       5
+entered_password                                                                  0x03FF       5
+i                                                                                 0x0404       2
+buffer                                                                            0x0406      16
+keys                                                                              0x0416      12
+_base_y                                                                           0x0422       4
+_lcd_x                                                                            0x0426       1
+_lcd_y                                                                            0x0427       1
+_lcd_maxx                                                                         0x0428       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+row                                                                               R4,R5        2
+col                                                                               R6,R7        2
+index                                                                             R8,R9        2
+temp                                                                              R11          1
+logOut                                                                            R12,R13      2
+key                                                                               R10          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0014C    125
+keypad_init                                                                       0x001C9      5
+keypad_scan                                                                       0x001CE     50
+check_password                                                                    0x00200     17
+reset_password                                                                    0x00211     10
+ADC_Air                                                                           0x0021B     30
+LCD                                                                               0x00239     84
+Lights                                                                            0x0028D     66
+LCD_menu                                                                          0x002CF     10
+Lights_menu                                                                       0x002D9     11
+On_off_ret                                                                        0x002E4    130
+_lcd_write_nibble_G100                                                            0x00366     20
+_lcd_write_data                                                                   0x0037A     12
+lcd_gotoxy                                                                        0x00386     17
+lcd_clear                                                                         0x00397     14
+lcd_putchar                                                                       0x003A5     32
+lcd_puts                                                                          0x003C5     17
+lcd_init                                                                          0x003D6     47
+put_buff_G101                                                                     0x00405     58
+_print_G101                                                                       0x0043F    308
+sprintf                                                                           0x00573     52
+strcmp                                                                            0x005A7     20
+strlen                                                                            0x005BB     12
+strlenf                                                                           0x005C7     13
